@@ -127,7 +127,7 @@ Previous interactions are provided to the agent as context for future requests d
 
 The current implementation uses in-memory storage only. The memory is reset when the application restarts.
 
-⸻
+---
 
 🎯 Decision Making
 
@@ -158,30 +158,6 @@ The user can:
 7. Update existing tasks.
 8. Ask the agent what they should work on next.
 
-⸻
-
- *Project Structure*
-
-ai-digital-twin/
-│
-├── app/
-│   ├── __init__.py
-│   ├── agent.py          # LLM configuration and tool definitions
-│   ├── data.py           # Digital Twin creation
-│   ├── graph.py          # LangGraph workflow
-│   ├── memory.py         # Conversation memory
-│   ├── models.py         # Pydantic data models
-│   ├── tools.py          # Task management tools
-│   └── main.py           # Application entry point / backend logic
-│
-├── frontend/
-│   └── ui.py             # Streamlit user interface
-│
-├── .env                  # Environment variables (not committed)
-├── .gitignore
-├── requirements.txt
-└── README.md
-
 ---
 
  **Technologies Used**
@@ -200,7 +176,7 @@ ai-digital-twin/
 
 1. Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/ai-digital-twin.git
+git clone https://github.com/Nada2oo4/ai-digital-twin.git
 cd ai-digital-twin
 
 2. Create a virtual environment
