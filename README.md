@@ -176,8 +176,8 @@ The user can:
 
 1. Clone the repository
 
-git clone https://github.com/Nada2oo4/ai-digital-twin.git
-cd ai-digital-twin
+git clone [https://github.com/Nada2oo4/ai-digital-twin.git
+cd ai-digital-twin](https://github.com/Nada2oo4/Simple-AI-Digital-Twin.git)
 
 2. Create a virtual environment
 
